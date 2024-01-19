@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+    background: #FFFAF5;     
+}
+textarea ,input ,button ,select{
+    font-size: inherit;
+    font-family: inherit;
+}
+h1,h2 ,h3,h4,h5,h6{
+    font-family: 'Sora', sans-serif;
+}
+/* common */
+.btn{
+    display: inline-block;
+    --height:56px;
+    min-width: 130px;
+    height: var(--height);
+    line-height: var(--height);
+    border: 1px solid rgba(0,9, 88, 0.7);
+    border-radius: 99px;
+    color: #000958;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.btn:hover{
+    opacity: 0.9;
+}
+.container{
+    width: 1170px;
+    max-width: calc(100% - 38px);
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+/* header-fixed */
+.header-fixed{
+    padding: 26px 0;
+}
+
+.inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar__list{
+    display: flex;
+}
+.navbar__link:hover
+{
+    color: #000958;
+    text-shadow: 1px 0 0 currentColor;
+}
+.navbar__link,.inner-btns__link{
+    padding: 8px 18px;
+    color: #5E6085;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1; /* 100% */
+
+}
+.inner-btns__btn{
+    --height:50px;
+    min-width: 118px;
+}
